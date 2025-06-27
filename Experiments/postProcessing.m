@@ -212,14 +212,14 @@ print('./reportFigures/nonSimple_MBFRC_RC/compToSimple_48freq_PSD_CAS_2','-depsc
 
 figure(602);clf
     set(gcf,'Position',stndFig_1)
-    sgtitle('Error plot of simplified MBFRC with and without added RC')
+    sgtitle('Error plot comparing simplified and non-simplified MBFRC with RC')
     subplot(6,3,[1 2 4 5 7 8 10 11 13 14])
         plot(tVec_SP6,MBFRC_RC_48_SP4.e);hold on;grid minor
         plot(tVec_SP6,MBFRC_RC_NS_48_SP6.e)
         xlim([0 180])
             xlabel('Time [s]')
             ylabel('Error [m]')
-                legend('Simplified MBFRC','Simplified MBFRC with RC','Location','northeast')
+                legend('Simplified MBFRC with RC','Non-simplified MBFRC with RC','Location','northeast')
     subplot(6,3,[3 6 9 12 15])
         plot(tVec_SP6,MBFRC_RC_48_SP4.e);hold on;grid minor
         plot(tVec_SP6,MBFRC_RC_NS_48_SP6.e)
