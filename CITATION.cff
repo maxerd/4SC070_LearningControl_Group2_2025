@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Jans, Wijdeven, Dogan
-    given-names: Max, Olaf, Mustafa
+  - family-names: Dogan, Jans, Wijdeven
+    given-names: Mustafa, Max, Olaf
 title: "2025 Learning Control course, TU/e (4SC070)"
 version: 1.0
 date-released: 2025-06-27
